@@ -1,0 +1,89 @@
+* {
+    color: #9c9c9c;
+}
+.gray-bg {
+    background-color: #fafafa;
+}
+
+.service-bg-1 {
+    background-image:  url(img.png);
+}
+
+.service-bg-2 {
+    background-image:  url(img-1.png);
+}
+
+.service-bg-3 {
+    background-image:  url(img-2.webp);
+}
+
+.service-bg-4 {
+    background-image:  url(img-3.jpg);
+}
+
+.section-padding {
+    padding: 80px 0;
+}
+
+.section-title {
+    margin-bottom: 50px;    
+}
+
+.section-title h2 {
+    color: #333;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.single-service-item {
+    background-color: #fff;
+    transition: 0.3s;
+}
+
+
+.service-bg {
+    height: 300px;
+    background-color: #ddd;
+    background-position: center;
+    background-size: cover;
+}
+
+.service-content {
+    padding: 20px;
+}
+
+.service-content h3 {
+    color: #333;
+    font-weight: bold;
+}
+
+.service-more-btn{
+    display: inline-block;
+    color: #39ca74;
+    padding: 10px 0;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.service-more-btn .fa-solid {
+    font-weight: 700;
+    padding-left: 5px;
+    color: #39ca74;
+    transition: 0.3s;
+}
+
+.service-more-btn:hover {
+    background-color: #39ca74;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.service-more-btn:hover .fa-solid {
+    color: #fff;
+}
+
+.single-service-item:hover {
+    box-shadow: 0 0 10px #39ca74;
+}
